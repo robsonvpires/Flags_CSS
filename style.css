@@ -1,7 +1,7 @@
 body{
 background-color: dimgray;
 }
-.brazil{
+.Brazil{
     height:200px;
     width: 400px;
     background:green;
@@ -117,4 +117,90 @@ background-color: dimgray;
     background: #C8102E;
     height: 60px;
     width: 600px;
+}
+.Japan{
+    background: white;
+    height:333.33px;
+    width:500px;
+}
+.redcircle{
+    position: absolute;
+    margin-left:150px;
+    margin-top:66.66;
+    width:200px;
+    height:200px;
+    border-radius: 50%;
+    background:#BC002D;
+}
+
+.USA{
+    height: 300px;
+    width: 570px;
+    background: white;
+}
+.blueUSA{
+    position: absolute;
+    height:161.49px;
+    width: 228px;
+    background: #3C3B6E;
+}
+.redstripe{
+    height: 23.07px;
+    width: 570px;
+    background: #B22234;
+}
+.fa-star{
+    color: white;
+}
+.star{
+    position:absolute;
+    height:0px;
+    width:0px;
+    
+    border-right:  100px solid transparent;
+    border-bottom: 70px  solid white;
+    border-left:   100px solid transparent;
+    
+    transform:    rotate(35deg);
+ }
+ 
+ .star:before{
+    position:absolute;
+    top: -45px;
+    left: -65px;
+    content:"";
+    border-bottom: 80px solid white;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    
+    transform: rotate(-35deg);
+ }
+ 
+ .star:after{
+    position:absolute;
+    top: 3px;
+    left: -105px;
+    content:"";
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid white;
+    border-left: 100px solid transparent;
+    
+    transform: rotate(-70deg);
+ }
+
+.Venezuela{
+    background: #00247d;
+    height:333.33px;
+    width:500px;
+}
+.Venyellowstripe{
+    background: #ffcc00;
+    height: 111.11px;
+}
+.Venstars{
+    height: 111.11px;;
+}
+.Venredstripe{
+    background: #cf142b;
+    height: 111.11px;
 }
